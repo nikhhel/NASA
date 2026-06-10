@@ -112,7 +112,7 @@
             const month = String(Math.floor(Math.random() * 12) + 1).padStart(2, '0');
             const day = String(Math.floor(Math.random() * 28) + 1).padStart(2, '0');
             const randomDate = `${year}-${month}-${day}`;
-            const randomUrl = `https://nasa.gov&date=${randomDate}`;
+            const randomUrl = `https://api.nasa.gov/planetary/apod?api_key=m89QjMEbnHf6etyZ0muGCg8jA3eY35LLnKuo9jVO&date=${randomDate}`;
 
             document.getElementById("title").innerText = "Intercepting cosmic transmission...";
 
